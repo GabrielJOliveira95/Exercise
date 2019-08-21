@@ -35,7 +35,7 @@ public class TaxClass implements TaxService {
             double tax = resultado * y /100;
             double tax2 = resultado * 0.02;
             resultadofinal = resultado + tax + tax2;
-            System.out.printf("Parcela " + sdf.format(date2) + " " + "%.2f", resultadofinal);
+            System.out.printf("Installment N°" + y + " " + sdf.format(date2) + " " + "%.2f", resultadofinal);
             System.out.println("\n");
 
             
